@@ -12,7 +12,9 @@ In this project, a two-layer neural network was trained to recognize handwritten
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;y^{(i)}&space;=&space;2&space;\rightarrow&space;\begin{bmatrix}&space;0&space;&&space;1&space;&&space;0&space;&&space;0&space;&&space;0&space;&&space;0&space;&&space;0&space;&&space;0&space;&&space;0&space;&&space;0\end{bmatrix}^{T}" title="\large y^{(i)} = 2 \rightarrow \begin{bmatrix} 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0\end{bmatrix}^{T}" /></a>
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;y^{(i)}&space;=&space;2&space;\rightarrow&space;\begin{bmatrix}&space;0&space;&&space;1&space;&&space;0&space;&&space;0&space;&&space;0&space;&&space;0&space;&&space;0&space;&&space;0&space;&&space;0&space;&&space;0\end{bmatrix}^{T}" title="\large y^{(i)} = 2 \rightarrow \begin{bmatrix} 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0\end{bmatrix}^{T}" /></a>
+<p align="center">
+<img src="https://latex.codecogs.com/svg.latex?y^{(i)}&space;=&space;2&space;\rightarrow&space;\begin{bmatrix}&space;0&space;&&space;1&space;&&space;0&space;&&space;0&space;&&space;0&space;&&space;0&space;&&space;0&space;&&space;0&space;&&space;0&space;&&space;0\end{bmatrix}^{T}" title="y^{(i)} = 2 \rightarrow \begin{bmatrix} 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0\end{bmatrix}^{T}" /></a>
+</p>
 
 **Training:** Given the binary nature of the transformed labels, the logistic regression cost function was used and is shown below, accounting for the fact that there are 10 sub-labels per digit as mentioned above. The overall neural network cost function was composed of the logistic regression cost function and a regularization component, which is a function of the regularization parameter, λ
 λ. The cross-validation set was used to capture an optimal λ as shown below.
