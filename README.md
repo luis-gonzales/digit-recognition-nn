@@ -19,5 +19,8 @@ In this project, a two-layer neural network was trained to recognize handwritten
 **Training:** Given the binary nature of the transformed labels, the logistic regression cost function was used and is shown below, accounting for the fact that there are 10 sub-labels per digit as mentioned above. The overall neural network cost function was composed of the logistic regression cost function and a regularization component, which is a function of the regularization parameter, λ
 λ. The cross-validation set was used to capture an optimal λ as shown below.
 
+<p align="center">
+<img src="https://latex.codecogs.com/svg.latex?J^{(i)}&space;=&space;-\sum_{k=1}^{10}&space;\left[&space;y^{(i)}_k&space;log\left(h_\Theta\left(x^{(i)}\right)_{k}\right)&space;&plus;&space;\left(1-y_k^{(i)}\right)&space;log\left(1&space;-&space;h_\Theta\left(x^{(i)}\right)_{k}&space;\right)&space;\right]" title="J^{(i)} = -\sum_{k=1}^{10} \left[ y^{(i)}_k log\left(h_\Theta\left(x^{(i)}\right)_{k}\right) + \left(1-y_k^{(i)}\right) log\left(1 - h_\Theta\left(x^{(i)}\right)_{k} \right) \right]" /></a>
+</p>
 
 **Conclusion:**
