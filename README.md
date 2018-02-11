@@ -24,4 +24,8 @@ In this project, a two-layer neural network was trained to recognize handwritten
 <img src="https://latex.codecogs.com/svg.latex?J^{(i)}&space;=&space;-\sum_{k=1}^{10}&space;\left[&space;y^{(i)}_k&space;log\left(h_\Theta\left(x^{(i)}\right)_{k}\right)&space;&plus;&space;\left(1-y_k^{(i)}\right)&space;log\left(1&space;-&space;h_\Theta\left(x^{(i)}\right)_{k}&space;\right)&space;\right]" title="J^{(i)} = -\sum_{k=1}^{10} \left[ y^{(i)}_k log\left(h_\Theta\left(x^{(i)}\right)_{k}\right) + \left(1-y_k^{(i)}\right) log\left(1 - h_\Theta\left(x^{(i)}\right)_{k} \right) \right]" /></a>
 </p>
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/4633154/36069196-e364af08-0eb2-11e8-90af-bc534d3ebe6e.png" width="260px" height="196px"/>
+</p>
+
 **Conclusion:** With λ=0.2, a test set accuracy of 94.5% was achieved. The low value of λ suggests that the neural network could likely benefit from more training examples.
