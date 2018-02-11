@@ -1,6 +1,9 @@
-# Handwritten Digit Recognition
+# digit-recognition-nn
 
 In this project, a three-layer neural network was trained to recognize handwritten digits with MNIST data available here. An example of the data is shown below.
 
-Because the images are each 28x28 pixels, the input layer was set to 784 units. Somewhat arbitrarily, the single hidden layer was chosen to have 25 units. In order to leverage binary classification, 10 output units were chosen, one unit for each of the 10 digits, 0,1,...,9
-0
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/4633154/36068808-5906266c-0eac-11e8-89be-1a05612582a6.jpg" width="170px" height="170px"/>
+</p>
+
+**Architecture:** 
