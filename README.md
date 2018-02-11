@@ -1,3 +1,3 @@
 # digit-recognition-nn
 
-Handwritten digit recognition via two-layer neural network
+In this project, a three-layer neural network was trained to recognize handwritten digits with MNIST data available here. An example of the data is shown below.
