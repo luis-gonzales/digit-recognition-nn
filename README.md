@@ -28,4 +28,4 @@ In this project, a two-layer neural network was trained to recognize handwritten
   <img src="https://user-images.githubusercontent.com/4633154/36069196-e364af08-0eb2-11e8-90af-bc534d3ebe6e.png" width="260px" height="196px"/>
 </p>
 
-**Conclusion:** With λ=0.2, a test set accuracy of 94.5% was achieved. The low value of λ suggests that the neural network could likely benefit from more training examples.
+**Conclusion:** With λ=0.2, a test set accuracy of 94.5% was achieved. The low value of λ suggests that the neural network could likely benefit from more training examples. 
